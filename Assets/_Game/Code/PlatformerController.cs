@@ -20,7 +20,7 @@ public class PlatformerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         
         // Set to Dynamic with gravity
-        rb.bodyType = RigidbodyType2D.Dynamic;
+        //rb.bodyType = RigidbodyType2D.Dynamic;
         rb.gravityScale = 3f;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
